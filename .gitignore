@@ -1,3 +1,20 @@
 __pycache__
 .env
 .learn
+
+# Archivos de datos
+data/raw/*.csv
+data/interim/*.csv
+data/processed/*.csv
+
+# Archivos de modelos
+models/*.pkl
+models/*.joblib
+
+# Archivos de sistema
+.DS_Store
+*.pyc
+.ipynb_checkpoints
+
+# Archivos temporales
+*.tmp
